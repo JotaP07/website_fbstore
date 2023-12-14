@@ -1830,7 +1830,7 @@ textarea:focus {
 hero area css       Novo Square,Smooch Sans, Comfortaa, orbitron
 ============================= */
 .hero-area {
-  background-image: url("../images/hero/hero-bg.jpg");
+  background-image: url("/site/assets/images/hero/hero-bg.jpg");
   position: relative;
   z-index: 1;
   
@@ -3287,7 +3287,7 @@ video css
   position: relative;
   z-index: 1;
   padding: 220px 0 130px;
-  background-image: url("/fb_store/site/assets/images/hero/hero-bg.jpg");
+  background-image: url("/site/assets/images/hero/hero-bg.jpg");
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
   background-size: cover;
