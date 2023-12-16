@@ -1869,6 +1869,10 @@ hero area css       Novo Square,Smooch Sans, Comfortaa, orbitron
   .bannerLogo{
     margin-left: 840px;
   }
+
+  .hero-area .hero-content {
+    padding: 130px 0px 180px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1971,6 +1975,8 @@ hero area css       Novo Square,Smooch Sans, Comfortaa, orbitron
   margin-top: -40px;
 }
 
+
+
 @media (max-width: 767px) {
   .hero-area {
     background-image: url("../images/hero/hero-bg.jpg");
@@ -1978,6 +1984,8 @@ hero area css       Novo Square,Smooch Sans, Comfortaa, orbitron
     z-index: 1;
     
   }
+
+
   .hero-area::after { 
     content: '';
     position: absolute;
@@ -2023,6 +2031,11 @@ hero area css       Novo Square,Smooch Sans, Comfortaa, orbitron
   }
 }
 
+@media only screen and (min-width: 1300px) {
+  #texto-banner{
+    margin: 0px 0px 0px -44px;
+  }
+}
 
 .hero-area .hero-content p {
   font-family: 'comfortaa', sans-serif;
